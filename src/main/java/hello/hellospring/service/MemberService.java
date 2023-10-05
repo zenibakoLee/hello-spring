@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-@Service
+//@Service
 public class MemberService {
     private final MemberRepository memberRepository;
-    @Autowired // memberRepository Dependency Injection
+//    @Autowired // memberRepository Dependency Injection
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository; // Dependency Injection
     }
